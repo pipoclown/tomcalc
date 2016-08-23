@@ -5,21 +5,24 @@ public class Calculator {
 	public static void main(String[] args) {
 		Calculator c = new Calculator();
 		System.out.println(c.add(1, 1));
+		System.out.println(c.subtract(1, 1));
+		System.out.println(c.multiply(1, 1));
+		System.out.println(c.divide(1, 1));
 	}
 	
-	int add(int i, int j){
+	double add(int i, int j){
 		return i + j;
 	}
 	
-	int subtract(int i, int j){
+	double subtract(int i, int j){
 		return i - j;
 	}
 	
-	int multiply(int i, int j){
+	double multiply(int i, int j){
 		return i * j;
 	}
 	
-	int divide (int i, int j){
+	double divide (int i, int j){
 		return i / j;
 	}
 }
